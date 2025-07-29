@@ -1,0 +1,118 @@
+/* アラート */
+.todo__alert {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.todo__alert--success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px 20px;
+  border: 1px solid #c3e6cb;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+/* コンテンツ全体 */
+.todo__content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 作成フォーム */
+.create-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.create-form__item-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.create-form__button-submit {
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-form__button-submit:hover {
+  background-color: #0056b3;
+}
+
+/* Todo テーブル */
+.todo-table__inner {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todo-table__header {
+  background-color: #f8f9fa;
+  font-size: 18px;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.todo-table__row {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.todo-table__item {
+  padding: 12px;
+  vertical-align: middle;
+}
+
+/* 更新フォーム */
+.update-form {
+  display: flex;
+  gap: 10px;
+}
+
+.update-form__item-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.update-form__button-submit {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.update-form__button-submit:hover {
+  background-color: #218838;
+}
+
+/* 削除フォーム */
+.delete-form__button-submit {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-form__button-submit:hover {
+  background-color: #c82333;
+}
