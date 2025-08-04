@@ -1,8 +1,4 @@
 /* アラート */
-.todo__alert {
-  max-width: 1200px;
-}
-
 .todo__alert--success {
   background-color: #d4edda;
   color: #155724;
@@ -75,7 +71,8 @@
 /* 更新フォーム */
 .update-form {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .update-form__item-input {
