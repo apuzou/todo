@@ -1,7 +1,6 @@
 /* アラート */
 .todo__alert {
-  margin: 20px auto;
-  max-width: 600px;
+  max-width: 1200px;
 }
 
 .todo__alert--success {
@@ -25,11 +24,10 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  gap: 10px;
 }
 
 .create-form__item-input {
-  flex: 1;
+  width:400px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
